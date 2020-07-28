@@ -2,7 +2,7 @@
 
 This proyect uses several deep learning models to estimate in which direction a person is looking at (either from a prerecorded video, a webcam stream or an image) and then moves the mouse some distance in the estimated looking direction. Overall, the app allows us to control our mouse location using only our head pose and our eyes. Additionally the app show the frame with annotations to show interesting model outputs like the estimated gaze direction vector and face/eye bounding boxes detections. The proyect was developed using the OpenVINO toolkit, which allows us to run trained models efficiently on the edge in several different computing devices.
 
-<img src="imgs/demo.png" alt="drawing" width="800"/>
+<img src="https://github.com/ErickDDM/EyeMouseController/blob/master/imgs/demo.PNG" alt="drawing" width="800"/>
 
 All the models that were used to develop this proyect belong to the OpenVINO pre-trained model zoo and can be consulted in the following URLS:
 * [Face Detection](https://docs.openvinotoolkit.org/latest/_models_intel_face_detection_adas_binary_0001_description_face_detection_adas_binary_0001.html)
@@ -36,7 +36,7 @@ To save memory the pre-trained model files are not included in this repository. 
 
 The final proyect structure that you should have after downloading the required pre-trained models is the following (with the exception of the folder that contains the python virtual environment):
 
-<img src="imgs/folder_paths.png" alt="drawing" width="500"/>
+<img src="https://github.com/ErickDDM/EyeMouseController/blob/master/imgs/folder_paths.PNG" alt="drawing" width="800"/>
 
 ## Demo
 The simplest way to run the demo application is to download all the required models with the recommended proyect structure and then use one of the following commands to execute the application (after initializing the OpenVINO environment variables and activating the virtual environment):
