@@ -28,7 +28,7 @@ For running this proyect it is necessary to execute the following steps:
 * [Intialize the OpenVINO toolkit environment variables](https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_windows.html#set-the-environment-variables).
 * Execute `main.py` with the appropriate commandline arguments (use -h when executing the app for getting more information about this arguments).
 
-To save memory the pre-trained model files are not included in this repository. You need to download this models yourself  into the `models` directory by using the [model downloader tool](https://docs.openvinotoolkit.org/latest/omz_tools_downloader_README.html) provided with the OpenVINO toolkit. For this you have to use the `downloader.py` script in the following way:
+To save memory the pre-trained model files are not included in this repository. You need to download this models yourself  into the `models` directory by using the [model downloader tool](https://docs.openvinotoolkit.org/latest/omz_tools_downloader_README.html) provided with the OpenVINO toolkit. For this you have to use OpenVINO's `downloader.py` script in the following way:
  
  `python downloader.py --name face-detection-adas-binary-0001 -o <path-to-models-folder>`
 
