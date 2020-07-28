@@ -36,7 +36,7 @@ To save memory the pre-trained model files are not included in this repository. 
 
 The final proyect structure that you should have after downloading the required pre-trained models is the following (with the exception of the folder that contains the python virtual environment):
 
-<img src="https://github.com/ErickDDM/EyeMouseController/blob/master/imgs/folder_paths.PNG" alt="drawing" width="800"/>
+<img src="https://github.com/ErickDDM/EyeMouseController/blob/master/imgs/folder_paths.PNG" alt="drawing" width="500"/>
 
 ## Demo
 The simplest way to run the demo application is to download all the required models with the recommended proyect structure and then use one of the following commands to execute the application (after initializing the OpenVINO environment variables and activating the virtual environment):
